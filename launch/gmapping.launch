@@ -9,8 +9,9 @@
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
     <remap from="scan" to="laserscan" />
     <param name="base_frame" value="daniel_base" />
+    <!--
     <param name="odom_frame" value="odom" />
-    
+    -->
     <param name="map_frame" value="map" />
     <param name="map_update_interval" value="1.0" />
     <param name="temporalUpdate" value="1.0" />
